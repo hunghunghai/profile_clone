@@ -1,0 +1,141 @@
+/* phần này xóa đi nhá :))) 
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* đển toàn bộ font chữ là sans-serif */
+body {
+    font-family: sans-serif;
+}
+
+/* xóa phần này lỗi  ráng chịu :)))) */
+
+.box-profile {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.box-profile-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user-profile {
+    display: flex;
+    width: 100%;
+    gap: 100px;
+    align-items: center;
+}
+
+.info-user {
+    display: flex;
+    gap: 40px;
+    font-family: sans-serif;
+}
+
+.user-info {
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.edit-profile {
+    padding: 0 10px;
+    border: none;
+    background-color: #d1d1d1;
+    border-radius: 10px;
+}
+
+.profile-info-content {
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.info {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.qty {
+    font-weight: bold;
+    color: #000;
+}
+
+.Name-user {
+    font-size: 14px;
+    color: #818181;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.avatar-profile {
+    width: 150px;
+    background-size: cover;
+}
+
+.avatar-profile img {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #d1d1d1;
+}
+
+.user-post {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    border-top: 1px solid #d1d1d1;
+}
+
+.btn-action {
+    padding: 10px 10px 5px;
+    border: none;
+    background-color: transparent;
+}
+
+.active {
+    border-top: 1px solid #000;
+    background-color: transparent;
+}
+
+.upload-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-cam {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-profile {
+    font-size: 13px;
+    padding: 0 80px;
+    text-align: center;
+    height: 100px;
+}
+.footer-profile p {
+    margin-top: 20px;
+}
